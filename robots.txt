@@ -25,4 +25,5 @@ Disallow: /bodymind.html
 Disallow: /partnerzy.html
 Disallow: /intl/*
 Disallow: /kh
+Disallow: /new/*
 Allow: /
