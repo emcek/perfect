@@ -214,4 +214,7 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#website specific
 google*.html
+sftp-config.json
