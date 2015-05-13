@@ -1,10 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<urlset	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>http://perfectladies.pl/</loc>
 		<lastmod>2015-05-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/intro_gosia.jpg</image:loc>
+			<image:caption>Intro Pole Dance</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Zajęcia dla początkujących</image:title>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://perfectladies.pl/index.html</loc>
@@ -29,6 +34,30 @@
 		<lastmod>2015-05-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/gal_01.jpg</image:loc>
+			<image:caption>Szkoła Pole Dance</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Taniec na rurze w Perfect Ladies</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/gal_02.jpg</image:loc>
+			<image:caption>Pole Dance w parach</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Pole Dance w Perfect Ladies</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/gal_03.jpg</image:loc>
+			<image:caption>Instruktorki Pole Dance</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Zapraszamy na Pole Dance</image:title>
+		</image:image>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/gal_07.jpg</image:loc>
+			<image:caption>Ty też możesz spróbować</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Pole Dance dla każdego</image:title>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://perfectladies.pl/ladydance.html</loc>
@@ -71,6 +100,12 @@
 		<lastmod>2015-05-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/xstage_lite.jpg</image:loc>
+			<image:caption>Wieczór panieński na rurze</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Pole Dance podczas wieczoru panieńskiego</image:title>
+		</image:image>
 	</url>
 	<url>
 		<loc>http://perfectladies.pl/cennik.html</loc>
@@ -95,5 +130,11 @@
 		<lastmod>2015-05-11</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
+		<image:image>
+			<image:loc>http://perfectladies.pl/pictures/pds_front.jpg</image:loc>
+			<image:caption>Genialny pomysł na niezapomniany event</image:caption>
+			<image:geo_location>Kraków, Polska</image:geo_location>
+			<image:title>Pole Dance Show - imprezy firmowe i integracyjne</image:title>
+		</image:image>
 	</url>
 </urlset>
