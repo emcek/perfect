@@ -9,6 +9,7 @@ Disallow: /wordpress
 Disallow: /37-2/
 Disallow: /wieczor-panienski/
 Disallow: /open-studio/
+Disallow: /openstudio.html
 Disallow: /?p=63
 Disallow: /galeria/
 Disallow: /aktualnosci.html
@@ -16,14 +17,16 @@ Disallow: /kursy.html
 Disallow: /ladydance/
 Disallow: /regulamin/
 Disallow: /wkrotce-otwarcie/
-Disallow: /a
 Disallow: /zajecia.html
 Disallow: /szkolenia.html
 Disallow: /new/
+Disallow: mobile/
+Disallow: m/
 Disallow: /ladydance.html
 Disallow: /bodymind.html
 Disallow: /partnerzy.html
 Disallow: /intl/*
 Disallow: /kh
 Disallow: /new/*
+Disallow: /?page_id=18
 Allow: /
