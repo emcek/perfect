@@ -20,8 +20,6 @@ Disallow: /wkrotce-otwarcie/
 Disallow: /zajecia.html
 Disallow: /szkolenia.html
 Disallow: /new/
-Disallow: mobile/
-Disallow: m/
 Disallow: /ladydance.html
 Disallow: /bodymind.html
 Disallow: /partnerzy.html
@@ -29,4 +27,5 @@ Disallow: /intl/*
 Disallow: /kh
 Disallow: /new/*
 Disallow: /?page_id=18
+Disallow: /maps
 Allow: /
