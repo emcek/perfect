@@ -14,6 +14,7 @@ deny from all
 AuthName perflady.webd.pl
 AuthUserFile /home/perflady/public_html/_vti_pvt/service.pwd
 AuthGroupFile /home/perflady/public_html/_vti_pvt/service.grp
+Options -Indexes
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
