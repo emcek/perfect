@@ -10,12 +10,6 @@
 			<image:geo_location>Kraków, Polska</image:geo_location>
 			<image:title>Zajęcia dla początkujących</image:title>
 		</image:image>
-		<image:image>
-			<image:loc>http://perfectladies.pl/pictures/perfect_weekend.jpg</image:loc>
-			<image:caption>Weekend z Pole Dance</image:caption>
-			<image:geo_location>Kraków, Polska</image:geo_location>
-			<image:title>Weekend na rurce</image:title>
-		</image:image>
 	</url>
 	<url>
 		<loc>http://perfectladies.pl/index.html</loc>
