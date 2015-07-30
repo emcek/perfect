@@ -25,17 +25,7 @@ Na Starym Mieście organizujemy również szalone wieczory panieńskie. tel. 601
 <script src="./scripts/jquery-1.7.2.min.js"></script>
 <script src="./scripts/lightbox.js"></script>
 <script type="text/javascript" src="./scripts/external-tracking.min.js"></script>
-
 <style type="text/css">body { background-color: #000000; }</style>
-<!--[if lte IE 6]>
-<style type="text/css">
-* html body
-{
-	behavior: url("./htc/csshover3.htc");
-}
-</style>
-<link rel="stylesheet" type="text/css" media="all" href="./css/ie6fix.css" />
-<![endif]-->
 <script type="text/javascript">
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-4866141-3']);
@@ -54,20 +44,10 @@ Na Starym Mieście organizujemy również szalone wieczory panieńskie. tel. 601
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div id="fb" onMouseOut="this.style.marginLeft='-250px'" onMouseOver="this.style.marginLeft='0px'">
-	<fb:like-box href="https://www.facebook.com/perfectladies"
-		width="250"
-		colorscheme="light"
-		height="500"
-		show_faces="true"
-		stream="false"
-		header="true">
-	</fb:like-box>
-</div>
 <div id="wrapper" class="hfeed">
 	<div id="header">
 		<div id="masthead">
@@ -143,7 +123,6 @@ Na Starym Mieście organizujemy również szalone wieczory panieńskie. tel. 601
 			</div><!-- #content -->
 		</div><!-- #container -->
 
-
 		<div id="primary" class="widget-area">
 			<ul class="xoxo"><li class="widget-container">
 			<div class="textwidget">
@@ -154,11 +133,8 @@ Na Starym Mieście organizujemy również szalone wieczory panieńskie. tel. 601
 					<input type=text name=email>
 					<input type=submit name="sub" value="Zapisz się">
 				</form><br>
-				<fb:like href="https://www.facebook.com/perfectladies" send="false" layout="button_count" width="220" show_faces="false"></fb:like>
-				<fb:facepile href="https://www.facebook.com/perfectladies" max_rows="1" width="220"></fb:facepile>
-				<br><br>
-				<g:plusone size="medium"></g:plusone>
-				<br><br>
+				<div class="fb-like" data-href="https://www.facebook.com/perfectladies" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div><br><br>
+				<g:plusone size="medium"></g:plusone><br><br>
 				<a href="https://plus.google.com/114095189466613759390" rel="publisher"><img class="alignleft" title="Znajdziesz nas w Google+" src="./pictures/gplus.png" alt="Google+" style="float:left; margin-right: 4px; vertical-align: middle;">Znajdziesz nas<br>na Google+</a>
 			</div>
 			</li></ul>
@@ -172,7 +148,7 @@ Na Starym Mieście organizujemy również szalone wieczory panieńskie. tel. 601
 				<a class="reglink" href="./regulamin.html">Regulamin</a>
 			</div><!-- #site-info -->
 			<div id="site-generator">
-				<span>copyright &copy; 2014 PerfectLadies</span>
+				<span>copyright &copy; 2015 PerfectLadies</span>
 			</div><!-- #site-generator -->
 		</div><!-- #colophon -->
 	</div><!-- #footer -->
@@ -192,11 +168,7 @@ Histats.track_hits();} catch(err){};
 <noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?1388417&101" alt="free hit counter javascript" border="0"></a></noscript>
 <!-- Histats.com  END  -->
 <!-- Google -->
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-	{"lang": "pl"}
-</script>
-<!-- Facebook -->
-<script src="http://connect.facebook.net/pl_PL/all.js#xfbml=1"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{"lang": "pl"}</script>
 </div>
 </body>
 <head>
