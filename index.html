@@ -41,17 +41,7 @@ Organizujemy również szalone wieczory panieńskie. tel. 601 073 739 lub 12 341
 <script src="./scripts/jquery-1.7.2.min.js"></script>
 <script src="./scripts/lightbox.js"></script>
 <script type="text/javascript" src="./scripts/external-tracking.min.js"></script>
-
 <style type="text/css">body { background-color: #000000; }</style>
-<!--[if lte IE 6]>
-<style type="text/css">
-* html body
-{
-	behavior: url("./htc/csshover3.htc");
-}
-</style>
-<link rel="stylesheet" type="text/css" media="all" href="./css/ie6fix.css" />
-<![endif]-->
 <script type="text/javascript"> 
 	var _gaq = _gaq || [];
 	_gaq.push(['_setAccount', 'UA-4866141-3']);
@@ -70,20 +60,10 @@ Organizujemy również szalone wieczory panieńskie. tel. 601 073 739 lub 12 341
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pl_PL/all.js#xfbml=1";
+  js.src = "//connect.facebook.net/pl_PL/sdk.js#xfbml=1&version=v2.4";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-<div id="fb" onMouseOut="this.style.marginLeft='-250px'" onMouseOver="this.style.marginLeft='0px'"> 
-	<fb:like-box href="https://www.facebook.com/perfectladies" 
-		width="250"
-		colorscheme="light"
-		height="500"
-		show_faces="true"
-		stream="false"
-		header="true">
-	</fb:like-box>
-</div>
 <div id="wrapper" class="hfeed">
 	<div id="header">
 		<div id="masthead">
@@ -144,58 +124,6 @@ Organizujemy również szalone wieczory panieńskie. tel. 601 073 739 lub 12 341
 						Powstaliśmy na początku 2011 roku jako pierwsza szkoła Pole Dance w Krakowie. Skorzystaj z naszej wiedzy i doświadczenia<br><br><br>
 						<iframe width="560" height="315" src="//www.youtube.com/embed/GIpvoXC_tOc" frameborder="0" allowfullscreen></iframe><br><br>
 					</div>
-<!-- 					<h1 class="entry-title"><span style="color: #EA0E7C; font-weight: bold; font-size: 14pt;">Zapisy na kursy i szkolenia</span></h1>
-					<div class="entry-content">
-						Pole Dance:
-						<table id="grafik" frame="box" rules="all" style="width:50%">
-							<tbody>
-								<tr>
-									<td>Basic</td><td class="clean">pon. 20:00 - brak miejsc<br>śr. 7:30 od 22.X<br>śr. 20:00 od 29.X</td>
-								</tr>
-								<tr>
-									<td>Intermediate</td><td class="clean">wt. 16:00 od 22.X<br>wt. 19:00 od 14.X - brak miejsc</td>
-								</tr>
-								<tr>
-									<td>Show Dance I</td><td>śr. 9:00 od 22.X</td>
-								</tr>
-								<tr>
-									<td>Advanced I</td><td class="clean">nd. 10:30 od 5.X</td>
-								</tr>
-								<tr>
-									<td>Advanced II</td><td class="clean">wt. 21:00 od 30.IX</td>
-								</tr>
-								<tr>
-									<td>Master I</td><td class="clean">wt. 18:00 od 16.IX</td>
-								</tr>
-								<tr>
-									<td>Master II</td><td class="clean">śr. 20:00 od 17.IX</td>
-								</tr>
-								<tr>
-									<td>Professional II</td><td class="clean">pon. 18:00, śr. 21:00</td>
-								</tr>
-								<tr>
-									<td>Kurs</td><td class="clean">sob. 12:00-13:30<br>od XI do IV</td>
-								</tr>
-							</tbody>
-						</table>
-						Acro Stretch:
-						<table id="grafik" frame="box" rules="all" style="width:50%">
-							<tbody>
-								<tr>
-									<td>I</td><td class="clean">czw. 19:00 od 2.X<br>pt. 7.30 od 24.X</td>
-								</tr>
-								<tr>
-									<td>II</td><td class="clean">-</td>
-								</tr>
-								<tr>
-									<td>I+II Dance</td><td class="clean">śr. 17:00 od 22.X</td>
-								</tr>
-								<tr>
-									<td>III Kurs AcroStretch &amp; Dance</td><td class="clean">czw. 20:00-21:30 od 23.X do 19.III</td>
-								</tr>
-							</tbody>
-						</table>
-					</div> -->
 					<h1 class="entry-title"><span style="font-weight: bold; font-size: 16pt;">Wspaniała alternatywa dla fitnessu i siłowni, niezmiemska zabawa i szybkie efekty</span></h1>
 					<div class="entry-content">
 						Od zajęć wprowadzających, po masterclass<br>
@@ -225,17 +153,14 @@ Organizujemy również szalone wieczory panieńskie. tel. 601 073 739 lub 12 341
 					<input type=text name=email>
 					<input type=submit name="sub" value="Zapisz się">
 				</form><br>
-				<fb:like href="https://www.facebook.com/perfectladies" send="false" layout="button_count" width="220" show_faces="false"></fb:like>
-				<fb:facepile href="https://www.facebook.com/perfectladies" max_rows="1" width="220"></fb:facepile>
-				<br><br>
-				<g:plusone size="medium"></g:plusone>
-				<br><br>
+				<div class="fb-like" data-href="https://www.facebook.com/perfectladies" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div><br><br>
+				<g:plusone size="medium"></g:plusone><br><br>
 				<a href="https://plus.google.com/114095189466613759390" rel="publisher"><img class="alignleft" title="Znajdziesz nas w Google+" src="./pictures/gplus.png" alt="Google+" style="float:left; margin-right: 4px; vertical-align: middle;">Znajdziesz nas<br>na Google+</a><br><br>
 				<center><img class="alignleft" title="Pole Dance" src="./pictures/gosia_small.jpg" alt="Zawody pole dance" style="height: 70%; width: 70%;"></center>
 			</div>
-			</li>
-			</ul>
+			</li></ul>
 		</div><!-- #primary .widget-area -->
+
 	</div><!-- #main -->
 
 	<div id="footer">
@@ -245,7 +170,7 @@ Organizujemy również szalone wieczory panieńskie. tel. 601 073 739 lub 12 341
 				<a class="reglink" href="./regulamin.html">Regulamin</a>
 			</div><!-- #site-info -->
 			<div id="site-generator">
-				<span>copyright &copy; 2014 PerfectLadies</span>
+				<span>copyright &copy; 2015 PerfectLadies</span>
 			</div><!-- #site-generator -->
 		</div><!-- #colophon -->
 	</div><!-- #footer -->
@@ -265,11 +190,7 @@ Histats.track_hits();} catch(err){};
 <noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?1388417&101" alt="free hit counter javascript" border="0"></a></noscript>
 <!-- Histats.com  END  -->
 <!-- Google -->
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
-	{"lang": "pl"}
-</script>
-<!-- Facebook -->
-<script src="http://connect.facebook.net/pl_PL/all.js#xfbml=1"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">{"lang": "pl"}</script>
 </div>
 </body>
 <head>
