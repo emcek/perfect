@@ -4,12 +4,6 @@
 		<lastmod>2015-07-30</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
-		<image:image>
-			<image:loc>http://perfectladies.pl/pictures/intro_gosia.jpg</image:loc>
-			<image:caption>Intro Pole Dance</image:caption>
-			<image:geo_location>Kraków, Polska</image:geo_location>
-			<image:title>Zajęcia dla początkujących</image:title>
-		</image:image>
 	</url>
 	<url>
 		<loc>http://perfectladies.pl/index.html</loc>
